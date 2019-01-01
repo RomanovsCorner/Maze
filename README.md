@@ -6,6 +6,7 @@ This project contains two main procedures which are to generate and solve mazes.
 The recrusive backtracking algorithm is used to both generate and solve the maze. Both procedures are very similar. When attempting to solve the maze, the program terminates on two conditions as opposed to one. The program terminates when the "ending cell is found (There is a path and the maze has been solved.) or when there are no longer any univsited cells. (There isn't a path and the maze cannot be solved).
 
 ## Pseudocode
+```
 Init Maze
 1.Define a grid (ie. 3 x 3)
 2.Define a Stack
@@ -35,6 +36,6 @@ Solve Maze
       set "current" cell to "previous"
  4.if "current" cell is equal to "ending" cell
       path found
-
+```
 **Note**: Maze was developed as a final project for my Data Structures & Algorithms course at Florida Gulf Coast University. This project was developed in C++ — an Object Oriented Programming language. However, an OOP approach was not taken as a way to learn more about bit-wise operators and user defined data structures. That is why they are used extensively and unecessarily throughtout this project. Unfortunately, the program is console based, which makes the maze generations and solutions a bit hard to follow. However, with the description and the pseudocode written above this can easily be reproduced as a GUI program to improve the aeastethic side of this project.
 
