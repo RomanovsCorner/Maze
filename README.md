@@ -7,7 +7,7 @@ The recrusive backtracking algorithm is used to both generate and solve the maze
 
 ## Pseudocode
 ```
-Init Maze
+**Init Maze**
 1.Define a grid (ie. 3 x 3)
 2.Define a Stack
 Generate Maze
