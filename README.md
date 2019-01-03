@@ -11,7 +11,7 @@ Init Maze
 1.Define a grid (ie. 3 x 3)
 2.Define a Stack
 
-Generate Maze
+-Generate Maze
 1.Define "starting", "ending", "current" cell
 2.Assign "current" cell to "starting" cell
 3.while there are univisited cells
@@ -39,5 +39,5 @@ Solve Maze
  4.if "current" cell is equal to "ending" cell
       path found
 ```
-**Note**: Maze was developed as a final project for my Programming Methodology course taken at Florida Gulf Coast University. This project was developed in C++ — an Object Oriented Programming language. However, an OOP approach was not taken as a way to learn more about bit-wise operators and user defined data structures. That is why they are used extensively and unecessarily throughtout this project. Unfortunately, the program is console based, which makes the maze generations and solutions a bit hard to follow. However, with the description and the pseudocode written above this can easily be reproduced as a GUI program to improve the aeastethic side of this project.
+**Note**: Maze was developed as a final project for my Programming Methodology course taken at Florida Gulf Coast University. This project is developed in C++ — an Object Oriented Programming language. However, during development, an OOP approach was not taken as a strategy to learn more about bit-wise operators and user defined data structures. That is why they are used extensively and unecessarily throughtout this project. Unfortunately, this program is console based, which makes the maze generations and solutions a bit hard to follow. However, with the description and the pseudocode written above this can easily be reproduced as a GUI program to improve the aeastethic side of this project.
 
