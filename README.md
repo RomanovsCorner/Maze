@@ -6,12 +6,12 @@ This project contains two main procedures which are to generate and solve mazes.
 The recrusive backtracking algorithm is used to both generate and solve the maze. Both procedures are very similar. When attempting to solve the maze, the program terminates on two conditions as opposed to one. The program terminates when the "ending cell is found (There is a path and the maze has been solved.) or when there are no longer any univsited cells. (There isn't a path and the maze cannot be solved).
 
 ## Pseudocode
-```
+```diff
 Init Maze
 1.Define a grid (ie. 3 x 3)
 2.Define a Stack
-diff
--Generate Maze
+
+- Generate Maze
 1.Define "starting", "ending", "current" cell
 2.Assign "current" cell to "starting" cell
 3.while there are univisited cells
