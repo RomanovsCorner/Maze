@@ -10,7 +10,7 @@ The recrusive backtracking algorithm is used to both generate and solve the maze
 Init Maze
 1.Define a grid (ie. 3 x 3)
 2.Define a Stack
-
+diff
 -Generate Maze
 1.Define "starting", "ending", "current" cell
 2.Assign "current" cell to "starting" cell
