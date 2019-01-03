@@ -14,7 +14,7 @@ Maze is a console based program that generates and solves mazes using a recursiv
 1.Define a grid (ie. 3 x 3)
 2.Define a Stack
 
-<b> Generate Maze </b>
+` Generate Maze `
 1.Define "starting", "ending", "current" cell
 2.Assign "current" cell to "starting" cell
 3.while there are univisited cells
