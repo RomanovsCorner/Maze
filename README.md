@@ -9,14 +9,13 @@ Maze is a console based program that generates and solves mazes using a recursiv
   >&nbsp;&nbsp;&nbsp;&nbsp;The third procedure is very similar to the second one. When attempting to solve the maze, the program terminates on two conditions as opposed to one. The program terminates when the "ending cell is found (There is a path and the maze has been solved.) or when there are no longer any univsited cells. (There isn't a path and the maze cannot be solved).
 
 ## Pseudocode
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+
 ```diff
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-- Init Maze
+- ![#f03c15]Init Maze `#f03c15`
 1.Define a grid (ie. 3 x 3)
 2.Define a Stack
 
-  Generate Maze 
+- ![#f03c15]Generate Maze `#f03c15`
 1.Define "starting", "ending", "current" cell
 2.Assign "current" cell to "starting" cell
 3.while there are univisited cells
@@ -28,7 +27,7 @@ Maze is a console based program that generates and solves mazes using a recursiv
       pop stack to get "previous" cell
       set "current" cell to "previous"
 
-- Solve Maze
+- ![#f03c15]Solve Maze `#f03c15`
 1.Define "starting", "ending", "current" cell
 2.Assign "current" cell to "starting" cell
 3.while there are univisited cells
