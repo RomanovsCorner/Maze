@@ -12,6 +12,8 @@ Maze is a console based program that generates and solves mazes using a recursiv
 
 ```diff
 - ![#f03c15]Init Maze `#f03c15`
+- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
+- ![#f03c15]Init Maze `#f03c15`
 1.Define a grid (ie. 3 x 3)
 2.Define a Stack
 
