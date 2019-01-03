@@ -11,13 +11,11 @@ Maze is a console based program that generates and solves mazes using a recursiv
 ## Pseudocode
 
 ```diff
-- ![#f03c15]Init Maze `#f03c15`
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-- ![#f03c15]Init Maze `#f03c15`
+Init Maze
 1.Define a grid (ie. 3 x 3)
 2.Define a Stack
 
-- ![#f03c15]Generate Maze `#f03c15`
+Generate Maze
 1.Define "starting", "ending", "current" cell
 2.Assign "current" cell to "starting" cell
 3.while there are univisited cells
@@ -29,7 +27,7 @@ Maze is a console based program that generates and solves mazes using a recursiv
       pop stack to get "previous" cell
       set "current" cell to "previous"
 
-- ![#f03c15]Solve Maze `#f03c15`
+Solve Maze
 1.Define "starting", "ending", "current" cell
 2.Assign "current" cell to "starting" cell
 3.while there are univisited cells
